@@ -10,10 +10,28 @@ var student = {
  rollno : 12 }
 
 delete student["rollno"]
-
 console.log(student)
 
+//way 2
 
+// function removeRollNo(obj) {
+//   var newStudent = {}
+//   newStudent.name = obj.name
+//   newStudent.sclass = obj.sclass
+//   return newStudent
+// }
+//
+// function removeRollNo2(obj) {
+//   var newObj = obj
+//   delete newObj.rollno
+//   return newObj
+// }
+//
+// //way 3
+//
+// function removeRollNo3(obj) {
+//   R.omit(['rollno'], obj)
+// }
 
 const teams = [
   { id: 1, name: "Braves", league: "NL" },
