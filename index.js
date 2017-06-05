@@ -71,3 +71,4 @@ const flipKeys = function(team) {
 }
 
 console.log(teams.map(flipKeys))
+//document.getElementById.("tag").innerHTML = "hello"
